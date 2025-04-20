@@ -155,3 +155,11 @@ button {
 .button-call-to-action {
     border: 2px solid #f9faf8;
 }
+
+/* Style footer */
+footer {
+    padding: 2em;
+    text-align: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
