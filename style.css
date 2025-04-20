@@ -1,0 +1,40 @@
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set body styles */
+body {
+    height: 100vh;
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Style header */
+header {
+    padding: 16px 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+header .header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    flex: 1;
+}
+
+header ul.header-links {
+    flex: 1;
+    list-style: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+}
