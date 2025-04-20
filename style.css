@@ -112,3 +112,22 @@ button {
     border-radius: 16px;
     aspect-ratio: 1;
 }
+
+/* Style quote section */
+.quote {
+    padding: 5em 30%;
+    background-color: #e5e7eb;
+}
+
+.quote .quote-text {
+    margin-bottom: 16px;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.quote .quote-author {
+    text-align: end;
+    font-size: 18px;
+    font-weight: 900;
+}
