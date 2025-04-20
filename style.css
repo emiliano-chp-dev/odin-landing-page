@@ -16,11 +16,13 @@ body {
 
 /* Style header */
 header {
-    padding: 16px 20%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: baseline;
     background-color: #1f2937;
+}
+
+header {
+    padding: 16px 25%;
 }
 
 header .header-logo {
@@ -37,4 +39,49 @@ header ul.header-links {
     display: flex;
     justify-content: flex-end;
     gap: 16px;
+}
+
+/* Style hero */
+.hero {
+    padding: 5em 25%;
+    display: flex;
+    background-color: #1f2937;
+}
+
+.hero .hero-text {
+    flex: 1 1 0;
+}
+
+.hero .hero-text .hero-text-main {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+.hero .hero-text .hero-text-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-right: 2em;
+    margin-bottom: 16px;
+}
+
+button {
+    border: none;
+    border-radius: 4px;
+    padding: .5em 2em;
+    background-color: #3882f6;
+    font-size: 18px;
+    font-weight: 900;
+    color: #f9faf8;
+    cursor: pointer;
+}
+
+.hero .hero-image-placeholder {
+    flex: 1 0 0;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
 }
