@@ -131,3 +131,27 @@ button {
     font-size: 18px;
     font-weight: 900;
 }
+
+/* Style call to action */
+.call-to-action {
+    padding: 5em 25%;
+}
+
+.call-to-action .call-to-action-wrapper {
+    border-radius: 16px;
+    padding: 3em 7em;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-to-action .call-to-action-wrapper .call-to-action-text p:first-of-type {
+    font-size: 24px;
+    font-weight: 900;
+    color: #e5e7eb;
+}
+
+.button-call-to-action {
+    border: 2px solid #f9faf8;
+}
